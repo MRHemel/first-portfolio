@@ -1,5 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 h1 {
@@ -12,6 +13,9 @@ h1 {
 
 .first {
     display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+
 }
 
 .half-width {
@@ -21,4 +25,46 @@ h1 {
 
 .half-width img {
     width: 80%;
+}
+
+.button-link {
+    text-decoration: none;
+    background-color: orange;
+    padding: 10px 40px;
+    color: aliceblue;
+    border-radius: 5px;
+    background-image: linear-gradient(orange, tomato);
+    font-weight: 700;
+
+}
+
+.second {
+    margin-top: 50px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+}
+
+.education {
+    display: flex;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+
+}
+
+.item {
+    width: 40%;
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#edu {
+    border-left: 7px solid orange;
+}
+
+#skill {
+    border-left: 7px solid blue;
 }
